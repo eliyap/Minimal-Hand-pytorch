@@ -2,5 +2,6 @@
     "hostRequirements": {
         "cpus": 4,
         "storage": "64gb"
-    }
+    },
+    "onCreateCommand": "conda update -n base -c defaults -y conda"
 }

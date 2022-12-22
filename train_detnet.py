@@ -404,7 +404,11 @@ if __name__ == '__main__':
         "-trs",
         "--datasets_train",
         nargs="+",
-        default=['cmu', 'rhd', 'gan'],
+        default=[
+            # 'cmu', 
+            'rhd', 
+            # 'gan',
+        ],
         type=str,
         help="sub datasets, should be listed in: [cmu|rhd|gan]"
     )
@@ -413,7 +417,12 @@ if __name__ == '__main__':
         "-tes",
         "--datasets_test",
         nargs="+",
-        default=['rhd', 'stb', "do", "eo"],
+        default=[
+            'rhd', 
+            # 'stb', 
+            # "do", 
+            # "eo",
+        ],
         type=str,
         help="sub datasets, should be listed in: [rhd|stb|do|eo]"
     )

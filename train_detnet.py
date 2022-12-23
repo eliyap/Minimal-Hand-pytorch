@@ -490,7 +490,7 @@ if __name__ == '__main__':
     )
     parser.add_argument(
         '-j', '--workers',
-        default=8,
+        default=0,
         type=int,
         metavar='N',
         help='number of data loading workers (default: 8)'

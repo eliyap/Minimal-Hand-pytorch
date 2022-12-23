@@ -3,5 +3,6 @@
         "cpus": 4,
         "storage": "64gb"
     },
-    "onCreateCommand": "conda update -n base -c defaults -y conda"
+    "onCreateCommand": "conda update -n base -c defaults -y conda",
+    "updateContentCommand": "conda activate minimal-hand-torch"
 }
